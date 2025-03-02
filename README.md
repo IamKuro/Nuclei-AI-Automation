@@ -54,7 +54,7 @@ VULNS=(
 To add a new vulnerability scan, simply append a new entry to the `VULNS` array:
 
 ```bash
-VULNS+=("Detect exposed API keys in public repositories.")
+VULNS=("Detect exposed API keys in public repositories.")
 ```
 To remove a specific scan, delete the corresponding line from the `VULNS` array.
 
