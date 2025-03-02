@@ -4,6 +4,7 @@
 This is an automated tool for **Nuclei AI** that enables you to use multiple prompts directly. The tool comes bundled with **Subfinder** and **Httpx**, allowing you to scan a domain with a single command.
 
 ## Features
+![Layout BugHunt tool](https://github.com/user-attachments/assets/c02f46a1-dff3-42e0-b723-1e2c45c145f2)
 - Automatically installs **Nuclei AI**, **Subfinder**, and **Httpx**.
 - Simplifies domain scanning with minimal input.
 - Integrates multiple scanning tools for a comprehensive security assessment.
