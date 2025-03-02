@@ -8,6 +8,7 @@ This is an automated tool for **Nuclei AI** that enables you to use multiple pro
 - Automatically installs **Nuclei AI**, **Subfinder**, and **Httpx**.
 - Simplifies domain scanning with minimal input.
 - Integrates multiple scanning tools for a comprehensive security assessment.
+- Easily customize scanning prompts to fit your needs.
 
 ## Installation
 Ensure you have **Go** installed on your system before proceeding.
@@ -39,6 +40,23 @@ This will:
 1. Use **Subfinder** to enumerate subdomains.
 2. Use **Httpx** to check live hosts.
 3. Run **Nuclei AI** to scan for vulnerabilities.
+
+## Customizing Prompts
+You can modify or add new prompts to fit your scanning needs by editing the `scan.sh` script. The prompts are defined in the `VULNS` array within the script:
+
+```bash
+VULNS=(
+  "Identify login pages vulnerable to authentication bypass."
+  "Detect improper user authorization and privilege escalation vulnerabilities."
+  "Identify user input fields allowing shell command execution."
+)
+```
+To add a new vulnerability scan, simply append a new entry to the `VULNS` array:
+
+```bash
+VULNS+=("Detect exposed API keys in public repositories.")
+```
+To remove a specific scan, delete the corresponding line from the `VULNS` array.
 
 ## Dependencies
 - [Nuclei AI](https://github.com/projectdiscovery/nuclei)
