@@ -66,9 +66,6 @@ To remove a specific scan, delete the corresponding line from the `VULNS` array.
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
-## Contributions
-Feel free to contribute by submitting issues or pull requests!
-
 ## Disclaimer
 This tool is intended for security research and educational purposes only. The author is not responsible for any misuse of this tool.
 
