@@ -42,7 +42,7 @@ This will:
 3. Run **Nuclei AI** to scan for vulnerabilities.
 
 ## Customizing Prompts
-You can modify or add new prompts to fit your scanning needs by editing the `scan.sh` script. The prompts are defined in the `VULNS` array within the script:
+You can modify or add new prompts to fit your scanning needs by editing the `BugHunt.sh` script. The prompts are defined in the `VULNS` array within the script:
 
 ```bash
 VULNS=(
